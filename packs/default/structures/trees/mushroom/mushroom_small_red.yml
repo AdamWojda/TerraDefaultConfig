@@ -1,0 +1,7 @@
+files:
+  mushroom/small/GCp1Small: 80
+  mushroom/small/GCp2Small: 20
+id: mushroom_small_red
+y-offset: 0
+spawnable:
+  - "minecraft:mycelium"

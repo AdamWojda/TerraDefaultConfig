@@ -1,0 +1,42 @@
+extends: "MUSHROOM_ABSTRACT"
+id: "ROCKY_MUSHROOM_FOREST"
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - MUSHROOM_RIVER_BOTTOM: 61
+  - MUSHROOM_RIVER_SHORE: 62
+  - MYCELIUM: 65
+  - MUSHROOM: 69
+  - MUSHROOM: 255
+vanilla: MUSHROOM_FIELDS
+
+flora:
+  - density: 5
+    y:
+      min: 62
+      max: 84
+    items:
+      - RED_MUSHROOM: 85
+      - BROWN_MUSHROOM: 15
+
+trees:
+  - density: 10
+    items:
+      - mushroom_brown: 15
+      - mushroom_red: 15
+      - mushroom_small_brown: 35
+      - mushroom_small_red: 35
+    y:
+      min: 61
+      max: 84
+  - density: 6
+    items:
+      - GRAY_OAK: 90
+      - OAK: 10
+    y:
+      min: 68
+      max: 84
+

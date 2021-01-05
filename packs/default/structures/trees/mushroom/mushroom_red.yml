@@ -1,0 +1,9 @@
+files:
+  mushroom/GCp1: 60
+  mushroom/GCp2: 15
+  mushroom/GCp3: 15
+  mushroom/GCp4: 10
+id: mushroom_red
+y-offset: 0
+spawnable:
+  - "minecraft:mycelium"

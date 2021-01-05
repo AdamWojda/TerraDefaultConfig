@@ -1,0 +1,64 @@
+extends: "PLAINS_ABSTRACT"
+id: "JUNGLE"
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: JUNGLE
+
+structures:
+  - JUNGLE
+  - STRONGHOLD
+
+
+flora:
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 750
+      - ROSE_BUSH: 4
+      - LILAC: 4
+  - density: 14
+    items:
+      - CEILING_LEAVES: 6
+      - STALACTITE: 1
+      - STALAGMITE: 1
+      - SHROOMLIGHT: 2
+    y:
+      min: 15
+      max: 62
+  - density: 12
+    items:
+      - CEILING_LEAVES: 6
+      - STALACTITE: 1
+      - SHROOMLIGHT: 2
+    y:
+      min: 63
+      max: 84
+  - density: 7
+    items:
+      - STALACTITE: 1
+      - STALAGMITE: 2
+      - SHROOMLIGHT: 1
+    y:
+      min: 8
+      max: 14
+
+trees:
+  - density: 30
+    items:
+      - JUNGLE_BUSH: 16
+      - SMALL_JUNGLE: 12
+      - JUNGLE: 16
+      - JUNGLE_COCO: 3
+    y:
+      min: 62
+      max: 92

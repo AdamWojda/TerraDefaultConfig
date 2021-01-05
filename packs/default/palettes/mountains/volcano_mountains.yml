@@ -1,0 +1,24 @@
+layers:
+  - materials:
+      - "minecraft:shroomlight": 2
+      - "minecraft:magma_block": 2
+      - "minecraft:gilded_blackstone": 2
+      - "minecraft:dead_bubble_coral_block": 10
+      - "minecraft:cobblestone": 1
+      - "minecraft:stone": 1
+    layers: 1
+  - materials:
+      - "minecraft:shroomlight": 2
+      - "minecraft:magma_block": 2
+      - "minecraft:gilded_blackstone": 2
+      - "minecraft:dead_bubble_coral_block": 10
+      - "minecraft:cobblestone": 1
+      - "minecraft:stone": 1
+    layers: 2
+  - materials:
+      - "minecraft:stone": 1
+    layers: 1
+id: "MOUNTAIN_VOLCANO"
+simplex: true
+frequency: 0.03
+seed: 3

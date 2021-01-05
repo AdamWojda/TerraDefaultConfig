@@ -1,0 +1,9 @@
+files:
+  mushroom/GBp1: 60
+  mushroom/GBp2: 15
+  mushroom/GBp3: 15
+  mushroom/GBp4: 10
+id: mushroom_brown
+y-offset: 0
+spawnable:
+  - "minecraft:red_mushroom_block"

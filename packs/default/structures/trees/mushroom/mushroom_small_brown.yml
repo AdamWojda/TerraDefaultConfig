@@ -1,0 +1,7 @@
+files:
+  mushroom/small/GBp1Small: 80
+  mushroom/small/GBp2Small: 20
+id: mushroom_small_brown
+y-offset: 0
+spawnable:
+  - "minecraft:red_mushroom_block"
