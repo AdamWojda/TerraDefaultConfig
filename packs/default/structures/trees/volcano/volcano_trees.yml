@@ -1,0 +1,7 @@
+files:
+  volcano/REDdefault: 10
+  volcano/REDtall: 10
+id: volcano_trees
+y-offset: 0
+spawnable:
+  - "minecraft:soul_sand"

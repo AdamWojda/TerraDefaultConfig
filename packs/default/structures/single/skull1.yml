@@ -1,0 +1,54 @@
+files:
+  volcano/skull1: 1
+id: "SKULL1"
+spawn:
+  start:
+    min: 61
+    max: 69
+  bound:
+    min: 48
+    max: 96
+  width: 50
+  padding: 70
+loot:
+  1: arrows
+features:
+  - type: ENTITY_FEATURE
+    entity: VINDICATOR
+    attempts: 100
+    in-height: 1
+    amount:
+      min: 1
+      max: 4
+    spawnable-on:
+      - "minecraft:soul_sand"
+    spawnable-in:
+      - "minecraft:air"
+      - "minecraft:red_carpet"
+      - "minecraft:white_carpet"
+  - type: ENTITY_FEATURE
+    entity: CAVE_SPIDER
+    attempts: 100
+    in-height: 1
+    amount:
+      min: 1
+      max: 7
+    spawnable-on:
+      - "minecraft:soul_sand"
+    spawnable-in:
+      - "minecraft:air"
+      - "minecraft:red_carpet"
+      - "minecraft:white_carpet"
+  - type: ENTITY_FEATURE
+    entity: EVOKER
+    attempts: 50
+    in-height: 2
+    amount:
+      min: 1
+      max: 3
+    spawnable-on:
+      - "minecraft:soul_soil"
+    spawnable-in:
+      - "minecraft:air"
+      - "minecraft:red_carpet"
+      - "minecraft:white_carpet"

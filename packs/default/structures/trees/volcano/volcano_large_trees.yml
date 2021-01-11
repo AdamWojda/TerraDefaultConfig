@@ -1,0 +1,7 @@
+files:
+  volcano/REDbig: 2
+  volcano/REDtall: 1
+id: volcano_large_trees
+y-offset: 0
+spawnable:
+  - "minecraft:soul_sand"

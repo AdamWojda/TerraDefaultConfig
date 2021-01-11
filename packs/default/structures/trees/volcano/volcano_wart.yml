@@ -1,0 +1,10 @@
+files:
+  volcano/wart1: 1
+  volcano/wart2: 1
+  volcano/wart3: 1
+  volcano/wart4: 1
+  volcano/wart5: 1
+id: volcano_wart
+y-offset: 0
+spawnable:
+  - "minecraft:soul_sand"

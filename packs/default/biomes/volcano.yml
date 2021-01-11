@@ -1,18 +1,20 @@
-noise-equation: "((-((y / 62)^2)) + 1) + ((noise2(x, z)/4))"
+noise-equation: "((-((y / base)^2)) + 1) + |(noise2(x, z) / 3) + 0.1| + (((noise2(x + noise2(x/2, z/2)*56*(min(max((y-base)/30, 0), 1)), z + noise2(x/2+1000, z/2+1000)*56*(min(max((y-base)/30, 0), 1)))+1)/2)^3)*0.75"
 extends: "BASIC_ORES"
-id: "SWAMP"
+id: "VOLCANO"
+
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
-  - SWAMP_BOTTOM: 61
-  - SWAMP: 255
+  - VOLCANO_BOTTOM: 61
+  - VOLCANO: 255
 vanilla: SWAMP
 
 structures:
-  - STRONGHOLD
-  - SWAMP
+  - SKULL1
+  - SKULL2
+  - SKULL3
 
 flora:
   - density: 80
@@ -26,13 +28,21 @@ flora:
       - BLUE_ORCHID: 20
       - ROOT: 3
 
-carving:
-  CAVE_SWAMP: 55
-
 trees:
-  - density: 2
+  - density: 7
     items:
-      - SWAMP_OAK: 1
+      - volcano_large_trees: 80
+      - volcano_small_trees: 20
     y:
-      min: 58
-      max: 92
+      min: 72
+      max: 77
+  - density: 11
+    items:
+      - volcano_wart: 1
+    y:
+      min: 64
+      max: 69
+
+ocean:
+  palette: "BLOCK:minecraft:lava"
+  level: 62

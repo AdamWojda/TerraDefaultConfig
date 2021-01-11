@@ -1,15 +1,15 @@
 files:
-  mansion: 1
-id: "MANSION"
+  volcano/skull2: 1
+id: "SKULL2"
 spawn:
   start:
-    min: 72
-    max: 72
+    min: 59
+    max: 65
   bound:
-    min: 48
-    max: 96
-  width: 125
-  padding: 100
+    min: 40
+    max: 87
+  width: 30
+  padding: 45
 loot:
   1: arrows
 features:
@@ -18,23 +18,25 @@ features:
     attempts: 100
     in-height: 1
     amount:
-      min: 60
-      max: 80
+      min: 1
+      max: 3
     spawnable-on:
-      - "minecraft:birch_planks"
+      - "minecraft:soul_soil"
+      - "minecraft:soul_sand"
     spawnable-in:
       - "minecraft:air"
       - "minecraft:red_carpet"
       - "minecraft:white_carpet"
   - type: ENTITY_FEATURE
-    entity: EVOKER
+    entity: ILLUSIONER
     attempts: 50
     in-height: 2
     amount:
       min: 1
-      max: 3
+      max: 5
     spawnable-on:
-      - "minecraft:birch_planks"
+      - "minecraft:soul_soil"
+      - "minecraft:soul_sand"
     spawnable-in:
       - "minecraft:air"
       - "minecraft:red_carpet"

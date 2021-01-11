@@ -1,12 +1,14 @@
 extends: "MOUNTAINS_VOLCANO_A"
 id: "MOUNTAINS_VOLCANO"
-erode: RIVER_M_P
+erode: RIVER_M_V
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
-  - RIVER_BOTTOM: 61
-  - RIVER_SHORE: 62
   - MOUNTAIN_VOLCANO: 255
 vanilla: PLAINS
+
+ocean:
+  palette: "BLOCK:minecraft:lava"
+  level: 62
